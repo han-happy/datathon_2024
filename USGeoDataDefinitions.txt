@@ -1,0 +1,10 @@
+Column Name         Type         Column Definition 
+RecordID            int          Unique identifier of the record 
+ZipCode             varchar(5)   Five-digit postal code used by the United States Postal Service 
+ZipCodePlus4        varchar(4)   Four-digit code that represents delivery routes within delivery areas (extends the five-digit postal code) 
+State               varchar(2)   Two-character state, province, or territory abbreviation                                                          
+Latitude            varchar(10)  Latitude of the zip code plus 4 
+Longitude           varchar(11)  Longitude of the zip code plus 4   
+FIPSCode            varchar(5)   Five-digit United States FIPS county code: State (2) + County Code (3) 
+CensusKey           varchar(16)  Fifteen or sixteen-digit key that represents: State (2) + County (3) + Tract (6) + Block Group Number (4) + Optional Block Suffix (1). The suffix is used to indicate if any changes were made the to Block Group Number  
+CensusKeyDecennial  varchar(15)  Fifteen-digit key that represents: State (2) + County (3) + Tract (6) + Block Group Number (4) 
